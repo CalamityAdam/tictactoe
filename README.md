@@ -33,10 +33,20 @@ java Main
 
 ## Optional Arguments
 
-You can provide starting board configuration as an argument:
+You can provide starting board configuration as an argument. Use underscores for empty spaces, 'X' and 'O' for filled positions.
+
+Example:
 
 ```bash
-./run-tictactoe.sh "_________"
+./run-tictactoe.sh "XO__XOOX_"
 ```
 
-Use underscores for empty spaces, 'X' and 'O' for filled positions.
+This will display the board:
+
+```
+---------
+| X O   |
+|   X O |
+| O X   |
+---------
+```
